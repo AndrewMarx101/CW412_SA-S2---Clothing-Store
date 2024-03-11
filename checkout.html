@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="8">
+    <link rel="stylesheet" type="text/css" href="checkout.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="shopnow.js"></script>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
+
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a class="active">Inkwali ------- Yenkosi</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">Home</a>
+    <a href="#contact">About The Leather</a>
+    <a href="#about">DIY Methods</a>
+    <a href="#news">Brick & Mortar</a>
+    <a href="shopnow.html">Shop Now</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<a href="https://www.instagram.com/" id="instagram"><img src="Instagram.png" style="width: 7%"/></a>
+<a href="https://twitter.com/explore" id="Twitter"><img src="Twitter.png" style="width: 7%"/></a>
+<a href="https://www.facebook.com/" id="facebook"><img src="facebook.png" style="width: 7%"/></a>
+<img id="img12" src="Rhino.png" alt="">
+
+</head>
+<body>
+    <p1 id="p1"><strong>Just one more step...<strong></strong></p1>
+    <p2 id="p2">Before your new Leather Jacket can leave we need you to fill in the following form<br></2p>
+
+    <div class="container5">
+    <form action="thankyou.html">
+        <div class="customerinfo">
+        <p id="rcorners1">1</p><h2 id="customerinfo">Customer Info</h2>
+        <input type="text" id="fname" name="fname" placeholder="Your Full Name" value="" style="width: 90%;"><br><br>
+        <input type="email" id="email" placeholder="example@gmail.com" name="email" style="width: 90%;"><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="width: 90%;"><br><br>
+        </div>
+
+        <div class="shippingdetails">
+        <p id="rcorners1">2</p><h2 id="shippingdetails">Shipping Details</h2>
+        <input type="text" id="adr" name="address" placeholder="Your Street Number and name" style="width: 90%;"><br><br>
+        <input type="text" id="city" name="city" placeholder="City" style="width: 90%;"><br><br>
+        <input type="text" id="Suburb" name="Suburb" placeholder="Your Suburb" style="width: 90%;"><br><br>
+        <input type="text" list="Province" id="province" name="Province" placeholder="Province" style="width: 90%;"><br><br>
+        <datalist id="Province">
+            <option value="Gauteng">
+                <option value="Eastern Cape">
+                    <option value="Free State">
+                        <option value="KwaZulu-Natal">
+                            <option value="Limpopo">
+                                <option value="Mpumalanga">
+                                    <option value="Northern Cape">
+                                        <option value="North West">
+        </datalist>
+        <input type="text" id="zip" name="zip" placeholder="Zip" style="width: 90%;"><br><br>
+
+        <textarea id="instructions" name="instructions" placeholder="Special Instructions" style="width: 90%;"></textarea><br><br>
+        </div>
+
+        <div class="billingdetails">
+        <p id="rcorners1">3</p><h2 id="billingdetails">Billing Details</h2>
+        <input type="text" id="cname" name="cardname" placeholder="Name on Card" style="width: 90%;"><br><br>
+        <input type="text" id="ccnum" name="cardnumber" placeholder="Credit Card Number" style="width: 90%;"><br><br>
+        <input type="text" id="edate" name="edate" placeholder="Expire date *" style="width: 90%;"><br><br>
+        <input type="text" id="ccv" name="ccv" placeholder="CCV" style="width: 90%;"><br><br>
+        </div>
+
+        <div class="tc">
+        <p3>Do you agree to our </p3><p4 style="text-decoration: underline;">Terms & Conditions</p4><br><br>
+        <input type="checkbox" id="T&C" name="T&C" placeholder="Yes">
+        <label for="T&C">Yes</label>
+        <input type="checkbox" id="T&C" name="T&C" placeholder="No">
+        <label for="T&C">No</label><br><br>
+        <input id="shipoff" type="submit" value="Ship Off!"><br><br>
+        </div>
+    </form>
+</div>
+
+<footer id="footer">
+    <p>This website was designed by Andrew Marx 12564 and ALL copyrights are reserved</p>
+    <hr id="hr1">
+    <p2>DIY About Home Brick & Mortar Shop Now</2p><br><br>
+        <div class="container8">
+        <form action="">
+            <label for="newsletter">Join Our Newsletter team!</label>
+            <input type="text" id="newsletter" name="newsletter" placeholder="example@gmail.com">
+            <input type="submit" value="Join">
+        </form>
+        <img id="img11" src="logo.png" alt="">
+        </div>
+       
+</footer>
+
+<br>
+</body>
+</html>

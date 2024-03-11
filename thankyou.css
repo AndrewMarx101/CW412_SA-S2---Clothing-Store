@@ -1,0 +1,118 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: black;
+    color: black;
+    position: relative;
+    left: 45%;
+
+  }
+  
+  #instagram{
+    position: absolute;
+    top: 13px;
+    left: 15px;
+    overflow: hidden;
+    }
+    
+    #instagram:hover {
+        transform: scale(1.02);
+        transition: 0.5s all ease-in-out;
+        width: auto;
+    }
+    
+    #Twitter{
+        position: absolute;
+        top: 13px;
+        left: 55px;
+        }
+    
+    #Twitter:hover {
+        transform: scale(1.02);
+        transition: 0.5s all ease-in-out;
+        width: auto;
+    }
+    
+    #facebook{
+        position: absolute;
+        top: 13px;
+        left: 95px;
+        }
+    #facebook:hover {
+     
+        transform: scale(1.02);
+        transition: 0.5s all ease-in-out;
+        width: auto;
+    }
+
+#img10 {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    position: relative;
+    bottom: -665px;
+    text-align: center;
+    border: solid black;
+    color: white;
+    background-color: black;
+}
+
+#newsletter {
+    color: white;
+}
+
+#img11 {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 100px;
+    height: auto;
+}
+
+#hr1 {
+    width: 70px;
+}
+
+#img12 {
+    position: absolute;
+    top: -2%;
+    left: 48.3%;
+    width: 5%;
+}
